@@ -45,7 +45,7 @@ namespace ConsoleApp1
             Feld = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Masse schätzen");
             Masse = Convert.ToDouble(Console.ReadLine());
-            MasseReiskorn = 0.0005;
+            MasseReiskorn = 0.00005;
             AnzahlReiskörner = Math.Pow(2.0, Feld - 1.0);
             Wahremasse = MasseReiskorn * AnzahlReiskörner;
 
